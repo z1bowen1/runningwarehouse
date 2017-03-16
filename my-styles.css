@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+.desktop {
+    display: none;
+}
+
+body {
+    font-size: 62.5%;
+    font-family:'Lato',sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 20px;
+    color: #01143e;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    font-family:'Lato',sans-serif;
+    font-size: 2.0em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom:0;
+    color: #01143e;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 5px;
+    
+}
+h3 {
+    font-family:'Lato',sans-serif;
+    font-size: 2.0em;
+    margin: 0px 0px 20px 0px;
+    padding-bottom:0px;
+    padding-top: 0px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 5px;
+    color: #01143e;
+    
+}
+h4 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: #01143e;
+}
+li, dt   {
+    font-size: 1.4em;
+    line-height: 1.79em;
+    color: #01143e;
+}
+p {
+    font-size: 1.4em;
+    margin: 0;
+    line-height: 1.79em;
+    color: #01143e;
+}
+.cap {
+    text-transform: uppercase;
+}
+ul, dl {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #d7d7d7;
+}
+nav li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid darkgrey;
+}
+
+nav li:hover,nav li:active  {
+    background-color: white;
+}
+.crumbs {
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.crumbs p {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.crumbs p:hover {
+    text-decoration: underline;
+}
+.content {
+    width: 75%;
+    margin: 0 auto;
+    min-width: 300px;
+    margin-top: 25px;
+}
+
+.brand img {
+    max-width: 400px;
+}
+.brand {
+    height: 118px;
+    background-color: #01143e;
+}
+span {
+    font-weight: 600;
+}
+img {
+    width: 100%;
+}
+.price {
+    font-size: 1.6em;
+    margin: 5px 0px 20px 0px;
+}
+.shoes {
+    margin-bottom: 20px;
+}
+.shoes ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.shoes p {
+    font-size: 1.3em;
+    font-weight: 400
+}
+.shoes h3:hover {
+    
+}
+.shoes li {
+    font-size: 1em;
+    list-style: none;
+    width: 140px;
+    height: 225px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.product-name {
+    border-top: 1px solid #d7d7d7;
+}
+.product-name:hover {
+    opacity: .6
+}
+.product-price {
+    border-top: 1px solid #d7d7d7;
+}
+
+.thumbnails li {
+    width: 90px;
+    list-style: none;
+}
+  .thumbnails {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    max-width: 560px;
+    }
+.details li {
+    margin-left: 40px
+}
+.details {
+    margin-bottom: 50px;
+}
+.side-bar {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: space-around;
+}
+.side-bar ul {
+    list-style: none;
+    padding-left: 10px;
+}
+.side-bar a:hover {
+    border-bottom: 1px solid #01143e;
+}
+.side-bar h2 {
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    margin-top: 25px;
+}
+input {
+    width: 40px;
+    height: 35px;
+    margin-right: 40px;
+    margin-left: 10px;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    outline: none;
+}
+button {
+    width: 130px;
+    height: 40px;
+    outline: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    
+}
+input:focus {
+   border: 1px solid black; 
+}
+button:focus {
+    border: 1px solid black; 
+    background-color: white;
+}
+.about {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.fit {
+    margin-left: 30px;
+}
+.reviews {
+    margin-top: 50px;
+}
+.reviewer {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.review-info {
+    margin-bottom: 10px;
+}
+.review-info img {
+    width: 120px;
+}
+.review-content {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 5px;
+}
+.review-detail {
+    width: 100%;
+}
+.review-detail p {
+    float: left;
+    margin-right; 30px;
+    line-height: 1.3;
+}
+.review-detail img {
+    float: right;
+    display: block;
+}
+.review-detail:after {
+    clear:both;
+    display:block;
+    content:"";
+}
+.product-price {
+    font-weight: 800;
+}
+.sub {
+    font-weight: 600;
+}
+.tech-review {
+    max-width: 700px;
+}
+@media screen and (min-width: 600px) {
+    .big-pic {
+        max-width: 560px;
+    }
+    nav {
+        width: 100%;
+        background-color: #d7d7d7;
+    }
+    nav ul {
+        width: 400px;
+        flex-direction: row;
+        flex-flow: row wrap;
+        justify-content:space-around;
+        
+    }
+    nav li {
+        margin: 0 auto;
+        flex-grow: 1;
+        box-sizing: border-box;
+        margin-top: 2px;
+        border-bottom: none;
+    }
+    .index-content {
+        width: 90%;
+        display: flex;
+        flex-flow:wrap-reverse row-reverse;
+        align-content: center;
+        justify-content:flex-end;
+        align-items: stretch;
+    }  
+    .side-bar {
+        flex: 1 0 0;
+        border-right: 1px solid #d7d7d7;
+    }
+    .shoes {
+        margin-bottom: 0px;
+        flex: 4 0 0;
+    }
+    .shoes h2 {
+        margin-left: 25px;
+    }
+    .shoes li:nth-child(2n+1) {
+        margin-right: 0px;
+        border: none;
+    }
+    .shoes li {
+        width: 200px;
+        height: 250px;
+        padding: 10px;
+        border: none;
+    }
+    
+    .review-info img {
+}
+  
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+    .big-pic {
+        max-width: 760px;
+    }
+    
+    nav {
+        justify-content: flex-start;
+    }
+    .feature {
+        margin-right: 30px
+    }
+     .smaller-content {
+        display: flex;
+        flex-direction: row;
+         justify-content:center;
+         align-items:stretch;
+    }
+    .details {
+        width:50%;
+    }
+    .side-bar {
+        flex: 1 0 0; 
+    }
+    .shoes {
+        margin-bottom: 0px;
+        flex: 5 0 0;
+    }
+}
+
